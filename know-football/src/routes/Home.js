@@ -1,10 +1,12 @@
 import '../App.css';
+import SideNav from "../SideNav";
 
 function Home() {
     
     return (
           <div className='main'>
-            <p>Home</p>
+              <SideNav/>
+            <h1>Know Football</h1>
           </div>
         )
   
