@@ -1,10 +1,17 @@
-h1{
+header > h1{
   text-align: center;
   color: white;
+  font-size: 100px;
+  margin-top: 0;
+  margin-right: 13px;
+  margin-bottom: 0px;
 }
 
 body{
   background-image: url("./assets/pitch.png");
+  background-repeat: no-repeat;
+  background-size: 1360px;
+  
 }
 
 .predictionForm{
@@ -21,10 +28,66 @@ label{
 
 input{
   width: 500px;
+  height: 25px;
+  background-image: url("assets/file.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+.tabPanel{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dx-field-item-label-text{
+  color: white !important;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 10px;
+  background-color: #008000;
+}
+
+.soon{
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  background-color: #008000;
+  width: 300px;
+  margin-left: 39%;
 }
 
 .clubPrediction{
   color: white;
-  font-size: 100px;
+  font-size: 50px;
   font-weight: bold;
+}
+
+.clubPrediction > p{
+  background-color: #008000;
+  margin: 0;
+  margin-top: 1%;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  font-weight: bolder;
+  background-color: #008000;
+  display: flex;
+  justify-content: space-between
+}
+
+footer > .copyright{
+  text-align: right;
+  padding-right: 17px;
+  color: #ffffff;
+}
+
+footer > .title{
+  text-align: left;
+  padding-left: 17px;
+  color: #ffffff;
 }

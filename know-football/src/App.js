@@ -4,6 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Grounds from "./routes/Grounds";
 import Home from "./routes/Home";
 import Prediction from "./routes/Prediction";
 
@@ -17,6 +18,9 @@ function App() {
         <Switch>
           <Route path="/prediction">
             <Prediction />
+          </Route>
+          <Route path="/grounds">
+            <Grounds />
           </Route>
           <Route path="/">
             <Home />
