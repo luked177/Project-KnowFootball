@@ -4,7 +4,6 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Header from "./SideNav";
 import Home from "./routes/Home";
 import Prediction from "./routes/Prediction";
 

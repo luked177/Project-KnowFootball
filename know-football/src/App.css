@@ -6,3 +6,25 @@ h1{
 body{
   background-image: url("./assets/pitch.png");
 }
+
+.predictionForm{
+  display: grid;
+  place-items: center;
+
+}
+
+label{
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+input{
+  width: 500px;
+}
+
+.clubPrediction{
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
