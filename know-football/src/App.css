@@ -38,6 +38,7 @@ input{
 .tabPanel{
   margin-left: 20px;
   margin-right: 20px;
+  background-color: #008000 !important;
 }
 
 .dx-field-item-label-text{
@@ -67,6 +68,56 @@ input{
   background-color: #008000;
   margin: 0;
   margin-top: 1%;
+}
+
+.groundsVisited{
+  color: #ffffff;
+  background-color: #008000;
+  width: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.addGroundButton{
+  margin-top: 15%;
+  margin-left: 10%;
+  height: 100px;
+  width: 400px;
+  background-color: #ffffff !important;
+  border-color: none;
+  color: #008000 !important;
+  font-size: 50px !important;
+  font-weight: bold !important;
+
+}
+
+.groundGPS{
+  margin-top: 15%;
+  margin-left: 20%;
+  height: 100px;
+  width: 400px;
+  background-color: #ffffff !important;
+  border-color: none;
+  color: #008000 !important;
+  font-size: 50px !important;
+  font-weight: bold !important;
+  
+}
+
+.submitButton {
+  background-color: #008000 !important;
+  color: #ffffff !important;
+  margin-top: 10px !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+}
+
+.cancelButton{
+  background-color: #008000 !important;
+  color: #ffffff !important;
+  margin-top: 10px !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
 }
 
 footer{
