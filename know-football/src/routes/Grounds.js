@@ -165,6 +165,7 @@ function Grounds() {
 ]
     const [groundsVisited, setGroundsVisited] = useState([]);
     let [chosenGround, setChosenGround] = useState();
+    
     function groundChosen(e){
         chosenGround = e.value
     }
