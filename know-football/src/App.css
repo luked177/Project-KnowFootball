@@ -10,7 +10,7 @@ header > h1{
 body{
   background-image: url("./assets/pitch.png");
   background-repeat: no-repeat;
-  background-size: 1360px;
+  background-size: 100vw 100vh;
   
 }
 
